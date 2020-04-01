@@ -5,16 +5,16 @@ pip install Flask
 pip install virtualenv
 virtualenv -p python3 venv
 
-__paht__ = local do projeto
+__path__ = local do projeto
 
-__paht__\venv\Scripts\activate.bat
+__path__\venv\Scripts\activate.bat
 
 venv
-__paht__\pip install Flask
-__paht__\pip freeze
+__path__\pip install Flask
+__path__\pip freeze
 
-__paht__\pip freeze > requirements.txt
-__paht__\pip install -r requirements.txt
+__path__\pip freeze > requirements.txt
+__path__\pip install -r requirements.txt
 
 pip install flask-sqlalchemy
 pip install Flask-Migrate
